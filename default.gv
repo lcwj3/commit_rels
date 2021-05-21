@@ -1,0 +1,564 @@
+// Semantic History Commit Slicing
+graph {
+	rankdir=RL
+	node [shape=circle]
+	{
+		rank=same
+		all_0 [label=badbfe0]
+	}
+	{
+		rank=same
+		all_1 [label="354b349"]
+	}
+	{
+		rank=same
+		all_2 [label="5880dcf"]
+		ai_data_trans_0 [label="5880dcf"]
+	}
+	{
+		rank=same
+		all_3 [label="19fc708"]
+		client_manage_0 [label="19fc708"]
+		cli_server_comm_0 [label="19fc708"]
+	}
+	{
+		rank=same
+		all_4 [label="6e2cbba"]
+		ai_data_trans_1 [label="6e2cbba"]
+	}
+	{
+		rank=same
+		all_5 [label="2f8e270"]
+		ai_data_trans_2 [label="2f8e270"]
+	}
+	{
+		rank=same
+		all_6 [label=fb57469]
+	}
+	{
+		rank=same
+		all_7 [label="54dcca8"]
+		ai_data_trans_3 [label="54dcca8"]
+	}
+	{
+		rank=same
+		all_8 [label=a07556a]
+		client_manage_1 [label=a07556a]
+		cli_server_comm_1 [label=a07556a]
+	}
+	{
+		rank=same
+		all_9 [label=0334951]
+	}
+	{
+		rank=same
+		all_10 [label="936c892"]
+	}
+	{
+		rank=same
+		all_11 [label="6c3d590"]
+	}
+	{
+		rank=same
+		all_12 [label=cf2ab19]
+	}
+	{
+		rank=same
+		all_13 [label="5dcd45f"]
+		client_manage_2 [label="5dcd45f"]
+		ai_data_trans_4 [label="5dcd45f"]
+		cli_server_comm_2 [label="5dcd45f"]
+	}
+	{
+		rank=same
+		all_14 [label=b101ad1]
+	}
+	{
+		rank=same
+		all_15 [label="9c8bdf1"]
+	}
+	{
+		rank=same
+		all_16 [label=baf1932]
+		cli_server_comm_3 [label=baf1932]
+	}
+	{
+		rank=same
+		all_17 [label=d47faab]
+		ai_data_trans_5 [label=d47faab]
+	}
+	{
+		rank=same
+		all_18 [label="0e4ac28"]
+		ai_data_trans_6 [label="0e4ac28"]
+	}
+	{
+		rank=same
+		all_19 [label=cc22dfb]
+		client_manage_3 [label=cc22dfb]
+		cli_server_comm_4 [label=cc22dfb]
+	}
+	{
+		rank=same
+		all_20 [label="83e3419"]
+		cli_server_comm_5 [label="83e3419"]
+	}
+	{
+		rank=same
+		all_21 [label="31de7c4"]
+	}
+	{
+		rank=same
+		all_22 [label="74feb97"]
+	}
+	{
+		rank=same
+		all_23 [label=3297234]
+		ai_data_trans_7 [label=3297234]
+	}
+	{
+		rank=same
+		all_24 [label="50172e8"]
+		cli_server_comm_6 [label="50172e8"]
+	}
+	{
+		rank=same
+		all_25 [label=f2c6809]
+		ai_data_trans_8 [label=f2c6809]
+		cli_server_comm_7 [label=f2c6809]
+	}
+	{
+		rank=same
+		all_26 [label="2e88bf4"]
+		client_manage_4 [label="2e88bf4"]
+		cli_server_comm_8 [label="2e88bf4"]
+	}
+	{
+		rank=same
+		all_27 [label=d25748e]
+		client_manage_5 [label=d25748e]
+		cli_server_comm_9 [label=d25748e]
+	}
+	{
+		rank=same
+		all_28 [label=f21150b]
+	}
+	{
+		rank=same
+		all_29 [label="68de036"]
+		cli_server_comm_10 [label="68de036"]
+	}
+	{
+		rank=same
+		all_30 [label=0387735]
+	}
+	{
+		rank=same
+		all_31 [label="4e381d0"]
+		cli_server_comm_11 [label="4e381d0"]
+	}
+	{
+		rank=same
+		all_32 [label="56a853e"]
+		plugin_lifecycle_0 [label="56a853e"]
+		ai_data_trans_9 [label="56a853e"]
+		cli_server_comm_12 [label="56a853e"]
+	}
+	{
+		rank=same
+		all_33 [label=badea22]
+		ai_data_trans_10 [label=badea22]
+	}
+	{
+		rank=same
+		all_34 [label="02a1a59"]
+		client_manage_6 [label="02a1a59"]
+	}
+	{
+		rank=same
+		all_35 [label="8e29373"]
+		client_manage_7 [label="8e29373"]
+	}
+	{
+		rank=same
+		all_36 [label=1756817]
+		cli_server_comm_13 [label=1756817]
+	}
+	{
+		rank=same
+		all_37 [label="7d9f67c"]
+		client_manage_8 [label="7d9f67c"]
+	}
+	{
+		rank=same
+		all_38 [label=f4b60bd]
+		plugin_lifecycle_1 [label=f4b60bd]
+		ai_data_trans_11 [label=f4b60bd]
+		cli_server_comm_14 [label=f4b60bd]
+	}
+	{
+		rank=same
+		all_39 [label="4411ed8"]
+	}
+	{
+		rank=same
+		all_40 [label="3d1fcb7"]
+	}
+	{
+		rank=same
+		all_41 [label="51fae10"]
+	}
+	{
+		rank=same
+		all_42 [label="8475e90"]
+	}
+	{
+		rank=same
+		all_43 [label="126de42"]
+	}
+	{
+		rank=same
+		all_44 [label="12dc081"]
+	}
+	{
+		rank=same
+		all_45 [label=2698681]
+	}
+	{
+		rank=same
+		all_46 [label="6fc0fc5"]
+	}
+	{
+		rank=same
+		all_47 [label="81b4822"]
+	}
+	{
+		rank=same
+		all_48 [label="998204e"]
+	}
+	{
+		rank=same
+		all_49 [label=d57385f]
+		plugin_integration_0 [label=d57385f]
+		ai_data_trans_12 [label=d57385f]
+	}
+	{
+		rank=same
+		all_50 [label=e73a0a9]
+		plugin_integration_1 [label=e73a0a9]
+		ai_data_trans_13 [label=e73a0a9]
+	}
+	{
+		rank=same
+		all_51 [label="9836c64"]
+		plugin_integration_2 [label="9836c64"]
+		ai_data_trans_14 [label="9836c64"]
+	}
+	{
+		rank=same
+		all_52 [label="097d675"]
+		plugin_integration_3 [label="097d675"]
+		ai_data_trans_15 [label="097d675"]
+	}
+	{
+		rank=same
+		all_53 [label=b53b9d7]
+		plugin_integration_4 [label=b53b9d7]
+		sdk_manage_0 [label=b53b9d7]
+		ai_data_trans_16 [label=b53b9d7]
+	}
+	{
+		rank=same
+		all_54 [label="4ebce40"]
+		plugin_integration_5 [label="4ebce40"]
+		ai_data_trans_17 [label="4ebce40"]
+	}
+	{
+		rank=same
+		all_55 [label=ff7cd34]
+		plugin_config_0 [label=ff7cd34]
+		plugin_integration_6 [label=ff7cd34]
+		plugin_lifecycle_2 [label=ff7cd34]
+		sdk_manage_1 [label=ff7cd34]
+		ai_data_trans_18 [label=ff7cd34]
+	}
+	{
+		rank=same
+		all_56 [label=a36200e]
+		plugin_integration_7 [label=a36200e]
+		ai_data_trans_19 [label=a36200e]
+	}
+	{
+		rank=same
+		all_57 [label=e852a80]
+		plugin_integration_8 [label=e852a80]
+		sdk_manage_2 [label=e852a80]
+		ai_data_trans_20 [label=e852a80]
+	}
+	{
+		rank=same
+		all_58 [label="61b605e"]
+		ai_data_trans_21 [label="61b605e"]
+	}
+	{
+		rank=same
+		all_59 [label="735e4d9"]
+		ai_data_trans_22 [label="735e4d9"]
+	}
+	{
+		rank=same
+		all_60 [label="7e32459"]
+		ai_data_trans_23 [label="7e32459"]
+	}
+	{
+		rank=same
+		all_61 [label=a95fd74]
+		plugin_integration_9 [label=a95fd74]
+		sdk_manage_3 [label=a95fd74]
+		ai_data_trans_24 [label=a95fd74]
+	}
+	{
+		rank=same
+		all_62 [label="17043b5"]
+		plugin_config_1 [label="17043b5"]
+		plugin_lifecycle_3 [label="17043b5"]
+	}
+	{
+		rank=same
+		all_63 [label="9bc5939"]
+		plugin_integration_10 [label="9bc5939"]
+		ai_data_trans_25 [label="9bc5939"]
+	}
+	{
+		rank=same
+		all_64 [label="7515cef"]
+		plugin_integration_11 [label="7515cef"]
+		sdk_manage_4 [label="7515cef"]
+		ai_data_trans_26 [label="7515cef"]
+	}
+	{
+		rank=same
+		all_65 [label="0882da1"]
+		plugin_integration_12 [label="0882da1"]
+		ai_data_trans_27 [label="0882da1"]
+	}
+	{
+		rank=same
+		all_66 [label="8846bc9"]
+		plugin_integration_13 [label="8846bc9"]
+		sdk_manage_5 [label="8846bc9"]
+		ai_data_trans_28 [label="8846bc9"]
+	}
+	{
+		rank=same
+		all_67 [label=de317cd]
+		ai_data_trans_29 [label=de317cd]
+	}
+	{
+		rank=same
+		all_68 [label="25d112f"]
+		ai_data_trans_30 [label="25d112f"]
+	}
+	{
+		rank=same
+		all_69 [label=c433634]
+		ai_data_trans_31 [label=c433634]
+	}
+	{
+		rank=same
+		all_70 [label=4791370]
+		ai_data_trans_32 [label=4791370]
+	}
+	{
+		rank=same
+		all_71 [label=a2c3085]
+		sdk_manage_6 [label=a2c3085]
+	}
+	{
+		rank=same
+		all_72 [label="06dc672"]
+		sdk_manage_7 [label="06dc672"]
+	}
+	{
+		rank=same
+		all_73 [label="0c91168"]
+		sdk_manage_8 [label="0c91168"]
+	}
+	{
+		rank=same
+		all_74 [label="43d87bd"]
+		plugin_config_2 [label="43d87bd"]
+		plugin_integration_14 [label="43d87bd"]
+		plugin_lifecycle_4 [label="43d87bd"]
+		sdk_manage_9 [label="43d87bd"]
+		client_manage_9 [label="43d87bd"]
+		task_sche_0 [label="43d87bd"]
+		ai_data_trans_33 [label="43d87bd"]
+		cli_server_comm_15 [label="43d87bd"]
+	}
+	{
+		rank=same
+		all_75 [label="10df15d"]
+	}
+	all_0 -- all_1
+	all_1 -- all_2
+	all_2 -- all_3
+	all_3 -- all_4
+	all_4 -- all_5
+	all_5 -- all_6
+	all_6 -- all_7
+	all_7 -- all_8
+	all_8 -- all_9
+	all_9 -- all_10
+	all_10 -- all_11
+	all_11 -- all_12
+	all_12 -- all_13
+	all_13 -- all_14
+	all_14 -- all_15
+	all_15 -- all_16
+	all_16 -- all_17
+	all_17 -- all_18
+	all_18 -- all_19
+	all_19 -- all_20
+	all_20 -- all_21
+	all_21 -- all_22
+	all_22 -- all_23
+	all_23 -- all_24
+	all_24 -- all_25
+	all_25 -- all_26
+	all_26 -- all_27
+	all_27 -- all_28
+	all_28 -- all_29
+	all_29 -- all_30
+	all_30 -- all_31
+	all_31 -- all_32
+	all_32 -- all_33
+	all_33 -- all_34
+	all_34 -- all_35
+	all_35 -- all_36
+	all_36 -- all_37
+	all_37 -- all_38
+	all_38 -- all_39
+	all_39 -- all_40
+	all_40 -- all_41
+	all_41 -- all_42
+	all_42 -- all_43
+	all_43 -- all_44
+	all_44 -- all_45
+	all_45 -- all_46
+	all_46 -- all_47
+	all_47 -- all_48
+	all_48 -- all_49
+	all_49 -- all_50
+	all_50 -- all_51
+	all_51 -- all_52
+	all_52 -- all_53
+	all_53 -- all_54
+	all_54 -- all_55
+	all_55 -- all_56
+	all_56 -- all_57
+	all_57 -- all_58
+	all_58 -- all_59
+	all_59 -- all_60
+	all_60 -- all_61
+	all_61 -- all_62
+	all_62 -- all_63
+	all_63 -- all_64
+	all_64 -- all_65
+	all_65 -- all_66
+	all_66 -- all_67
+	all_67 -- all_68
+	all_68 -- all_69
+	all_69 -- all_70
+	all_70 -- all_71
+	all_71 -- all_72
+	all_72 -- all_73
+	all_73 -- all_74
+	all_74 -- all_75
+	plugin_config_0 -- plugin_config_1
+	plugin_config_1 -- plugin_config_2
+	plugin_integration_0 -- plugin_integration_1
+	plugin_integration_1 -- plugin_integration_2
+	plugin_integration_2 -- plugin_integration_3
+	plugin_integration_3 -- plugin_integration_4
+	plugin_integration_4 -- plugin_integration_5
+	plugin_integration_5 -- plugin_integration_6
+	plugin_integration_6 -- plugin_integration_7
+	plugin_integration_7 -- plugin_integration_8
+	plugin_integration_8 -- plugin_integration_9
+	plugin_integration_9 -- plugin_integration_10
+	plugin_integration_10 -- plugin_integration_11
+	plugin_integration_11 -- plugin_integration_12
+	plugin_integration_12 -- plugin_integration_13
+	plugin_integration_13 -- plugin_integration_14
+	plugin_lifecycle_0 -- plugin_lifecycle_1
+	plugin_lifecycle_1 -- plugin_lifecycle_2
+	plugin_lifecycle_2 -- plugin_lifecycle_3
+	plugin_lifecycle_3 -- plugin_lifecycle_4
+	sdk_manage_0 -- sdk_manage_1
+	sdk_manage_1 -- sdk_manage_2
+	sdk_manage_2 -- sdk_manage_3
+	sdk_manage_3 -- sdk_manage_4
+	sdk_manage_4 -- sdk_manage_5
+	sdk_manage_5 -- sdk_manage_6
+	sdk_manage_6 -- sdk_manage_7
+	sdk_manage_7 -- sdk_manage_8
+	sdk_manage_8 -- sdk_manage_9
+	client_manage_0 -- client_manage_1
+	client_manage_1 -- client_manage_2
+	client_manage_2 -- client_manage_3
+	client_manage_3 -- client_manage_4
+	client_manage_4 -- client_manage_5
+	client_manage_5 -- client_manage_6
+	client_manage_6 -- client_manage_7
+	client_manage_7 -- client_manage_8
+	client_manage_8 -- client_manage_9
+	ai_data_trans_0 -- ai_data_trans_1
+	ai_data_trans_1 -- ai_data_trans_2
+	ai_data_trans_2 -- ai_data_trans_3
+	ai_data_trans_3 -- ai_data_trans_4
+	ai_data_trans_4 -- ai_data_trans_5
+	ai_data_trans_5 -- ai_data_trans_6
+	ai_data_trans_6 -- ai_data_trans_7
+	ai_data_trans_7 -- ai_data_trans_8
+	ai_data_trans_8 -- ai_data_trans_9
+	ai_data_trans_9 -- ai_data_trans_10
+	ai_data_trans_10 -- ai_data_trans_11
+	ai_data_trans_11 -- ai_data_trans_12
+	ai_data_trans_12 -- ai_data_trans_13
+	ai_data_trans_13 -- ai_data_trans_14
+	ai_data_trans_14 -- ai_data_trans_15
+	ai_data_trans_15 -- ai_data_trans_16
+	ai_data_trans_16 -- ai_data_trans_17
+	ai_data_trans_17 -- ai_data_trans_18
+	ai_data_trans_18 -- ai_data_trans_19
+	ai_data_trans_19 -- ai_data_trans_20
+	ai_data_trans_20 -- ai_data_trans_21
+	ai_data_trans_21 -- ai_data_trans_22
+	ai_data_trans_22 -- ai_data_trans_23
+	ai_data_trans_23 -- ai_data_trans_24
+	ai_data_trans_24 -- ai_data_trans_25
+	ai_data_trans_25 -- ai_data_trans_26
+	ai_data_trans_26 -- ai_data_trans_27
+	ai_data_trans_27 -- ai_data_trans_28
+	ai_data_trans_28 -- ai_data_trans_29
+	ai_data_trans_29 -- ai_data_trans_30
+	ai_data_trans_30 -- ai_data_trans_31
+	ai_data_trans_31 -- ai_data_trans_32
+	ai_data_trans_32 -- ai_data_trans_33
+	cli_server_comm_0 -- cli_server_comm_1
+	cli_server_comm_1 -- cli_server_comm_2
+	cli_server_comm_2 -- cli_server_comm_3
+	cli_server_comm_3 -- cli_server_comm_4
+	cli_server_comm_4 -- cli_server_comm_5
+	cli_server_comm_5 -- cli_server_comm_6
+	cli_server_comm_6 -- cli_server_comm_7
+	cli_server_comm_7 -- cli_server_comm_8
+	cli_server_comm_8 -- cli_server_comm_9
+	cli_server_comm_9 -- cli_server_comm_10
+	cli_server_comm_10 -- cli_server_comm_11
+	cli_server_comm_11 -- cli_server_comm_12
+	cli_server_comm_12 -- cli_server_comm_13
+	cli_server_comm_13 -- cli_server_comm_14
+	cli_server_comm_14 -- cli_server_comm_15
+}
